@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+   Adaptive uses premade static layouts to give the best viewing experience for websites, whereas responsive scales fluidly to the size of the screen.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+   Mobile first is the process of sketching/designing your website from smaller layouts (mobile)up to larger layouts (desktop), instead of vice versa.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+   It gives our text a font size of 10px, which is easy to scale off of for our styling needs (e.g , 1.6 rem is 16px)
+
 4. How would you describe preprocessing to someone new to CSS?
 
+   Preprocessing is writing shortcuts in your code, then having a machine translate those shortcuts to something that websites understand.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+   I love mixins. Saves so much time. Currently the most trouble I have with preprocessing is keeping my .less files organized, but I understand that it will be useful for large projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
@@ -93,23 +103,23 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-- [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+- [o] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-- [ ] Add a viewport meta tag to the head of your index.html page
+- [o] Add a viewport meta tag to the head of your index.html page
 
-- [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+- [o][review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-- [ ] Navigation Styles: Use the `navigation.less` file for styling.
+- [o] Navigation Styles: Use the `navigation.less` file for styling.
 
-- [ ] Main Content Styles: Use the `home-page.less` file for styling
+- [o] Main Content Styles: Use the `home-page.less` file for styling
 
-- [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+- [o] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-- [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+- [o] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-- [ ] Use at least 2 parameters to create your button
+- [o] Use at least 2 parameters to create your button
 
-- [ ] Create a hover state that swaps the background color and font color of the base button styles.
+- [o] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
@@ -127,8 +137,8 @@ After finishing your required elements, you can push your work further. These go
 
 - [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
-- [ ] Introduce CSS animations to your site.
+- [o] Introduce CSS animations to your site.
 
-- [ ] Create a fixed navigation and add some opacity to the background
+- [o] Create a fixed navigation and add some opacity to the background
 
 - [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription

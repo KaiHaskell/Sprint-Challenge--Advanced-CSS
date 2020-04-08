@@ -1,1 +1,30 @@
 // Navigation code here
+.navbar {
+  .displayFlex(column, center, center);
+  position: sticky;
+  top: 0;
+  background-color: rgba(190, 190, 190, 0.445);
+  padding: 1rem;
+
+  h1 {
+    font-size: 4rem;
+    margin: 1%;
+
+    @media @phone {
+      padding: 2%;
+    }
+  }
+
+  nav {
+    a {
+      font-size: 1.6rem;
+      padding: 2rem;
+      text-decoration: none;
+      color: #23293b;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
